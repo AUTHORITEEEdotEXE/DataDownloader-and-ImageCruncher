@@ -52,7 +52,7 @@ path = fd.askdirectory()
 
 generate_images(path)
 print("Data downloaded")
-#path in this case r"DataDownloader\IMAGES"
+
 
 
     
