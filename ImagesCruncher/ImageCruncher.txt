@@ -1,0 +1,9 @@
+Description:
+Python function that takes folder path as an input. Function iterates through all the files and picks files with specified extensions. Then counts pixels that are primarely red, green, blue and other colors put together as "OTHER".
+Function stores the pixel count results into JSON file names "ResultsJSON.json"
+
+How to use:
+1. After running the program window pops up and ask you to select a folder which you want to get data from(where you generated images from DataDownloader in this case).
+2. Select folder(if you used "IMAGES" folder, select it) and wait please.
+3. JSON file with data is created.
+4. Done. 

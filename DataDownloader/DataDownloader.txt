@@ -1,0 +1,10 @@
+Description:
+The "generate_image()" function takes a seed value as input and creates a new image with a specified width and height. It then iterates over each pixel in the image and randomly sets its color based on a set of conditions. The function then returns the generated image.
+The "generate_images()" function takes an output folder as input. Generates random seed value for each iteration which calls "generate_iamge()" function and creates 25 random images with a filename with zero-padded number and saves the file to the specified output folder.
+
+How to use:
+1. After running the program a window pops up and ask you to select a folder where you want to generate images into.
+2. Select folder(There is "IMAGES" folder in the "DataDownloader folder which you can select) and wait please.
+3. Done.
+
+
