@@ -40,8 +40,8 @@ def generate_images(output_folder):
         # calling function to generate image
         image = generate_image(seed)  
         # generate name for image
-        data_cislo = str(i).zfill(3)
-        filename = f'data_{data_cislo}.png'
+        data_number = str(i).zfill(3)
+        filename = f'data_{data_number}.png'
         # saving the image
         image.save(os.path.join(output_folder, filename))
         seed += 1
